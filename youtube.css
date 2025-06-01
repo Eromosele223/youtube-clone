@@ -1,15 +1,42 @@
 .thumbnail{
-    width:300px;
-    display:block
+    width:100%;
+    
+    margin-bottom: 10px;
+    
 }
-.video-title{
-    width:300px;
-}
+
 .video-preview{
-    display: inline-block;
-    width: 300px;
+    
+    
     vertical-align: top;
 }
 .search-bar{
     display: block;
 }
+.profile-image{
+    display:inline-block;
+    width:50px;
+    vertical-align: top;
+}
+.profile-img{
+     width: 100%; 
+     border-radius: 50%;
+     
+}
+.profile-text{
+    display: inline-block;
+    width: 200px;
+    
+    
+}
+.video-title{
+    margin-top: 0px;
+    font-weight: bold;
+}
+.grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+
+
